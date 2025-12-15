@@ -1,8 +1,16 @@
-{ 
-  "name": "n8n-on-render", 
-  "private": true, 
-  "version": "1.0.0", 
-  "engines": { "node": ">=18" }, 
-  "scripts": { "start": "n8n start" }, 
-  "dependencies": { "n8n": "^1.0.0" } 
-} 
+{
+  "name": "my-automation-tutorial",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "n8n"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "n8n": "^1.70.0"
+  }
+}
+
